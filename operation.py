@@ -42,7 +42,7 @@ def ODPF(signal: list, base: int) -> list:
 def mult(dpf_1, dpf_2):
     signal = list()
     for i in range(len(dpf_1)):
-        signal.append(dpf_1[i] + dpf_2[i])
+        signal.append(dpf_1[i] * dpf_2[i])
     
     return signal 
 
