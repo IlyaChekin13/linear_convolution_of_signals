@@ -1,5 +1,4 @@
 from math import sqrt
-from re import A
 
 
 class ComplexNum(object):
@@ -82,8 +81,3 @@ class ComplexNum(object):
     def __abs__(self):
         new = (self.real**2 + (self.imag**2)*-1)
         return ComplexNum(sqrt(abs(new)))       
-
-
-a = ComplexNum(2, 3)
-
-print(abs(a))
